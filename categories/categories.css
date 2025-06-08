@@ -1,0 +1,117 @@
+.main-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.main-content p a,
+.main-content > a {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.main-content p a:hover,
+.main-content > a:hover {
+  background-color: #1d4ed8;
+}
+
+.main-content form {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.main-content form input[type="text"],
+.main-content form input[type="number"] {
+  flex: 1 1 200px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 6px;
+  color: #1f2937;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-content form input[type="text"]:focus,
+.main-content form input[type="number"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+.main-content form input[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.main-content form input[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.main-content table th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.main-content table td {
+  padding: 14px 18px;
+  border-top: 1px solid #e5e7eb;
+  color: #4b5563;
+  vertical-align: top;
+}
+
+.main-content table td a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.main-content table td a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.main-content table td a:last-child {
+  color: #b91c1c;
+}
+
+.main-content table td a:last-child:hover {
+  color: #991b1b;
+}
+
+.main-content p {
+  color: #dc2626;
+  font-weight: 600;
+  margin-bottom: 12px;
+}

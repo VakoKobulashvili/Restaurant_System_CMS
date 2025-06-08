@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-content {
+  margin-left: 15%;
+  padding: 32px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  color: #1f2937;
+  font-family: "Inter", sans-serif;
+}

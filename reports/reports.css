@@ -1,0 +1,60 @@
+.main-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.main-content a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.main-content a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.charts-container {
+  display: flex;
+}
+
+.chart-container {
+  background: #f3f4f6;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-top: 2.5rem;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-container h3 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #111827;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    margin-left: 0;
+    padding: 1.5rem 1.5rem;
+    max-width: 100%;
+  }
+  .chart-container {
+    max-width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+  }
+}
