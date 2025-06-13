@@ -1,13 +1,13 @@
 <?php
+
 $host = "localhost";
-$username = "root";
-$password = "";
-$dbname = "restaurant";
+$user = "root";
+$pass = "";
+$db = "restaurant";
 
-$conn = mysqli_connect($host, $username, $password, $dbname);
+$conn = new mysqli($host, $user, $pass, $db);
 
-if (!$conn) {
-    die("Database connection failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-
 ?>
